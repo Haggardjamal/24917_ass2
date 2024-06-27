@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="#2196F3"
+    android:background="#FF9800"
     android:gravity="bottom"
     android:padding="20dp">
 
@@ -18,18 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Steve TOGUI"
+        android:text="DJAMAL HAGGAR"
         android:textSize="24dp">
 
     </TextView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="www.auca.com"
-        android:textSize="14dp">
 
-    </TextView>
 
 
 

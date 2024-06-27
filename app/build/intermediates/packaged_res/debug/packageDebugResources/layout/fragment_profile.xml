@@ -12,11 +12,18 @@
         android:gravity="center"
         android:padding="16dp"
         android:orientation="vertical">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            >
+
+        </Toolbar>
 
         <ImageView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:src="@drawable/baseline_profile_24"
+            android:src="@drawable/baseline_account_box_24"
             >
 
         </ImageView>
@@ -87,7 +94,7 @@
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                android:src="@drawable/face2"
+                android:src="@drawable/ista"
                 android:id="@+id/face_btn">
 
             </ImageView>

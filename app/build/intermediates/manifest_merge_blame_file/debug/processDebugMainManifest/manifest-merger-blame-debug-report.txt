@@ -40,8 +40,8 @@
 27        android:supportsRtl="true"
 27-->/Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
-29        android:theme="@style/Theme.MyRealApplication" >
-29-->/Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:13:9-55
+29        android:theme="@style/Theme.MyApplication" >
+29-->/Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:13:9-51
 30        <activity
 30-->/Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:15:9-23:20
 31            android:name="com.example.myrealapplication.MainActivity"

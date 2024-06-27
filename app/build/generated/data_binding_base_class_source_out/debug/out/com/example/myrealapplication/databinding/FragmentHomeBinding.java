@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final EditText emailnameInput;
@@ -27,28 +27,23 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final EditText firstnameInput;
 
   @NonNull
-  public final EditText lastnameInput;
-
-  @NonNull
   public final Button loginBtn;
 
   @NonNull
   public final EditText passwordInput;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull EditText emailnameInput,
-      @NonNull EditText firstnameInput, @NonNull EditText lastnameInput, @NonNull Button loginBtn,
-      @NonNull EditText passwordInput) {
+  private FragmentHomeBinding(@NonNull RelativeLayout rootView, @NonNull EditText emailnameInput,
+      @NonNull EditText firstnameInput, @NonNull Button loginBtn, @NonNull EditText passwordInput) {
     this.rootView = rootView;
     this.emailnameInput = emailnameInput;
     this.firstnameInput = firstnameInput;
-    this.lastnameInput = lastnameInput;
     this.loginBtn = loginBtn;
     this.passwordInput = passwordInput;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -85,12 +80,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.lastname_input;
-      EditText lastnameInput = ViewBindings.findChildViewById(rootView, id);
-      if (lastnameInput == null) {
-        break missingId;
-      }
-
       id = R.id.login_btn;
       Button loginBtn = ViewBindings.findChildViewById(rootView, id);
       if (loginBtn == null) {
@@ -103,8 +92,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, emailnameInput, firstnameInput,
-          lastnameInput, loginBtn, passwordInput);
+      return new FragmentHomeBinding((RelativeLayout) rootView, emailnameInput, firstnameInput,
+          loginBtn, passwordInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

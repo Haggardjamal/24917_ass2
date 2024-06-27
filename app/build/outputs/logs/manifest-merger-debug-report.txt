@@ -94,7 +94,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/TOGU
 	android:allowBackup
 		ADDED from /Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:13:9-55
+		ADDED from /Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
 		ADDED from /Users/TOGUI/AndroidStudioProjects/MyRealApplication/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.myrealapplication.MainActivity

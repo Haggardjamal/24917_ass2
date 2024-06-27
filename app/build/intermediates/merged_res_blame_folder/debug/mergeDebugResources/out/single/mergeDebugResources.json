@@ -52,6 +52,10 @@
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/drawable_baseline_account_box_24.xml.flat",
+        "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/drawable/baseline_account_box_24.xml"
+    },
+    {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/drawable_baseline_add_circle_outline_24.xml.flat",
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/drawable/baseline_add_circle_outline_24.xml"
     },
@@ -62,6 +66,10 @@
     {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/drawable_ista.jpeg.flat",
+        "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/drawable/ista.jpeg"
     },
     {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/drawable_ic_launcher_background.xml.flat",
@@ -104,10 +112,6 @@
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/drawable/baseline_dehaze_24.xml"
     },
     {
-        "merged": "com.example.myrealapplication.app-debug-31:/layout_fragment_home.xml.flat",
-        "source": "com.example.myrealapplication.app-main-33:/layout/fragment_home.xml"
-    },
-    {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/menu_button_menu.xml.flat",
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/menu/button_menu.xml"
     },
@@ -128,6 +132,10 @@
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.myrealapplication.app-debug-31:/layout_fragment_calculator.xml.flat",
+        "source": "com.example.myrealapplication.app-main-33:/layout/fragment_calculator.xml"
+    },
+    {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -140,12 +148,12 @@
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/layout/toolbar.xml"
     },
     {
-        "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/drawable_baseline_file_open_24.xml.flat",
-        "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/drawable/baseline_file_open_24.xml"
-    },
-    {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/xml_data_extraction_rules.xml.flat",
         "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/drawable_baseline_file_open_24.xml.flat",
+        "source": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-main-33:/drawable/baseline_file_open_24.xml"
     },
     {
         "merged": "/Users/TOGUI/.gradle/daemon/8.6/com.example.myrealapplication.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
